@@ -1,0 +1,14 @@
+{
+  "name": "bunnycss",
+  "version": "1.0.0",
+  "description": "A simple CSS package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bunnycss"
+  ],
+  "author": "20DCooney",
+  "license": "ISC"
+}
