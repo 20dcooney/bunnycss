@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bugs": {
+    "url": "https://github.com/20dcooney/bunnycss/issues",
+    "email": "davidjcooney33@gmail.com"
+  },
   "keywords": [
     "bunnycss"
   ],
