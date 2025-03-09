@@ -1,0 +1,29 @@
+span.bunny-one, i.bunny-one, div.bunny-one {
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    background-image: url('../svg/bunny-one.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: currentColor;
+}
+
+.bunny-two {
+    background-color: red;
+    -webkit-mask-image: url(../svg/bunny-one.svg);
+    mask-image: url(../svg/bunny-one.svg);
+
+}
+
+.red {
+    color: red;
+}
+
+#bunny-three {
+    color: red;
+    fill: red;
+}
+
+svg {
+    color: red;
+}
