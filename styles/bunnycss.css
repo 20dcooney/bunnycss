@@ -10,10 +10,14 @@
 
 .bunny-one {
     fill: pink;
+    
 }
 
+/*TODO: Research CSS layer hierarchy. the SVGs fill should be currentColor by default, but should be overridden by any
+color classes added to the path element of the SVG*/
 .colorhandling {
     fill: currentColor;
+    
 }
 
 .green {
