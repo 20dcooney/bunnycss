@@ -1,4 +1,4 @@
-span.bunny-one, i.bunny-one, div.bunny-one {
+/*span.bunny-one, i.bunny-one, div.bunny-one {
     display: inline-block;
     width: 72px;
     height: 72px;
@@ -6,24 +6,16 @@ span.bunny-one, i.bunny-one, div.bunny-one {
     background-size: contain;
     background-repeat: no-repeat;
     color: currentColor;
+}*/
+
+.bunny-one {
+    fill: pink;
 }
 
-.bunny-two {
-    background-color: red;
-    -webkit-mask-image: url(../svg/bunny-one.svg);
-    mask-image: url(../svg/bunny-one.svg);
-
+.colorhandling {
+    fill: currentColor;
 }
 
-.red {
-    color: red;
-}
-
-#bunny-three {
-    color: red;
-    fill: red;
-}
-
-svg {
-    color: red;
+.green {
+    color: green;
 }
