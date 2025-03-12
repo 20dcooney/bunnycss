@@ -8,13 +8,10 @@
     color: currentColor;
 }*/
 
-.bunny-one {
-    fill: pink;
-    
-}
+/*CSS file can potentially be removed, investigate changing Javascript to directly add 
+'fill: currentColor' to the SVG paths instead of adding the color handling class*/
 
-/*TODO: Research CSS layer hierarchy. the SVGs fill should be currentColor by default, but should be overridden by any
-color classes added to the path element of the SVG*/
+
 .colorhandling {
     fill: currentColor;
     

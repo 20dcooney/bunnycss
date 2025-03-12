@@ -5,7 +5,7 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "styles/style.css",
+    "styles/bunnycss.css",
     "svg"
   ],
   "scripts": {

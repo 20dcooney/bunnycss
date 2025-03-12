@@ -32,6 +32,10 @@ document.addEventListener('DOMContentLoaded', function () {
                                 svgElement.style.color = 'blue';
                             }
 
+                            if (element.classList.contains('black')) {
+                                svgElement.style.color = 'black';
+                            }
+
                             if (element.classList.contains('small')) {
                                 svgElement.style.width = '50px';
                                 svgElement.style.height = '50px';
@@ -52,6 +56,24 @@ document.addEventListener('DOMContentLoaded', function () {
                                 const hexColor = colorMatch.match(/custom-color-(#[0-9A-Fa-f]{6}|#[0-9A-Fa-f]{3})/)[1];
                                 svgElement.style.color = hexColor; 
                             }
+
+                            const widthMatch = Array.from(element.classList).find(className => /width-\d+/.test(className));
+
+                            if (widthMatch) {
+
+                                const customWidth = widthMatch.match(/\d+/)[0];
+                                svgElement.style.width = (customWidth + 'px');
+                            }
+
+                            const heightMatch = Array.from(element.classList).find(className => /height-\d+/.test(className));
+
+                            if (heightMatch) {
+
+                                const customHeight = heightMatch.match(/\d+/)[0];
+                                svgElement.style.height = (customHeight + 'px');
+                            }
+
+                            //TODO: Experiment with detecting if the user adds different metrics such as 100px vs 100vh
 
                         });
 
